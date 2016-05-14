@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6288739-4c94-449c-b3e7-c50b8062a8b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Transaction/AbortedMultiExecException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Transaction/AbortedMultiExecException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/AbstractConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/AbstractConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/PubSub/AbstractConsumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/PubSub/AbstractConsumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/AggregateConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/AggregateConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Pipeline/Atomic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Pipeline/Atomic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/BulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/BulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/Hash/CRC16.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/Hash/CRC16.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/ClientContextInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/ClientContextInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/ClientException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/ClientException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Aggregate/ClusterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Aggregate/ClusterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/ClusterOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/ClusterOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/ClusterStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/ClusterStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/CommandInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/CommandInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/CommunicationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/CommunicationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/CompositeConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/CompositeConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/CompositeProtocolProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/CompositeProtocolProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/CompositeStreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/CompositeStreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ConnectionAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ConnectionAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ConnectionEcho.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ConnectionEcho.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Pipeline/ConnectionErrorProof.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Pipeline/ConnectionErrorProof.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/ConnectionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/ConnectionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/ConnectionFactoryOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/ConnectionFactoryOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/ConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/ConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ConnectionPing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ConnectionPing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ConnectionQuit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ConnectionQuit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ConnectionSelect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ConnectionSelect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Monitor/Consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/PubSub/Consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Monitor/Consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/PubSub/Consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Collection/Iterator/CursorBasedIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Collection/Iterator/CursorBasedIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/PubSub/DispatcherLoop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/PubSub/DispatcherLoop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/Distributor/DistributorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/Distributor/DistributorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/Distributor/EmptyRingException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/Distributor/EmptyRingException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/ErrorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/ErrorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/ErrorResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/ErrorResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/ExceptionsOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/ExceptionsOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/FactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/FactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Pipeline/FireAndForget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Pipeline/FireAndForget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Session/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Session/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/Hash/HashGeneratorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/Hash/HashGeneratorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashGetAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashGetAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashGetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashGetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashIncrementByFloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashIncrementByFloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Collection/Iterator/HashKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Collection/Iterator/HashKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/Distributor/HashRing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/Distributor/HashRing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashSetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashSetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashSetPreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashSetPreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashStringLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashStringLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HashValues.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HashValues.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HyperLogLogAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HyperLogLogAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HyperLogLogCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HyperLogLogCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/HyperLogLogMerge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/HyperLogLogMerge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/IntegerResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/IntegerResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/Distributor/KetamaRing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/Distributor/KetamaRing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyDump.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyDump.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyExpireAt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyExpireAt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyMigrate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyMigrate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyMove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyMove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyPersist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyPersist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyPreciseExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyPreciseExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyPreciseExpireAt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyPreciseExpireAt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyPreciseTimeToLive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyPreciseTimeToLive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/Processor/KeyPrefixProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/Processor/KeyPrefixProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyRandom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyRandom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyRename.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyRename.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyRenamePreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyRenamePreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyRestore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyRestore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeySort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeySort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyTimeToLive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyTimeToLive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/KeyType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/KeyType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Collection/Iterator/Keyspace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Collection/Iterator/Keyspace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListIndex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListIndex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListInsert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListInsert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Collection/Iterator/ListKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Collection/Iterator/ListKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPopFirst.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPopFirst.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPopFirstBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPopFirstBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPopLast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPopLast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPopLastBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPopLastBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPopLastPushHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPopLastPushHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPopLastPushHeadBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPopLastPushHeadBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPushHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPushHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPushHeadX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPushHeadX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPushTail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPushTail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListPushTailX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListPushTailX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ListTrim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ListTrim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Aggregate/MasterSlaveReplication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Aggregate/MasterSlaveReplication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/Iterator/MultiBulk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/Iterator/MultiBulk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/Iterator/MultiBulkIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/Iterator/MultiBulkIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/MultiBulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/MultiBulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/Iterator/MultiBulkTuple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/Iterator/MultiBulkTuple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Transaction/MultiExec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Transaction/MultiExec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Transaction/MultiExecState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Transaction/MultiExecState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/NodeConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/NodeConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/NotSupportedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/NotSupportedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/OptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/OptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/Options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/Options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/OptionsInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/OptionsInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/ParametersInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/ParametersInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/PhpiredisSocketConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/PhpiredisSocketConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/PhpiredisStreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/PhpiredisStreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Pipeline/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Pipeline/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Player.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Aggregate/PredisCluster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Aggregate/PredisCluster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/PredisException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/PredisException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/PredisStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/PredisStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/PrefixOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/PrefixOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PrefixableCommandInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PrefixableCommandInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/Processor/ProcessorChain.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/Processor/ProcessorChain.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/Processor/ProcessorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/Processor/ProcessorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/ProfileInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/ProfileInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/ProfileOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/ProfileOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/ProtocolException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/ProtocolException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/ProtocolProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/ProtocolProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/ProtocolProcessorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/ProtocolProcessorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PubSubPublish.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PubSubPublish.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PubSubPubsub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PubSubPubsub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PubSubSubscribe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PubSubSubscribe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PubSubSubscribeByPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PubSubSubscribeByPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PubSubUnsubscribe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PubSubUnsubscribe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/PubSubUnsubscribeByPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/PubSubUnsubscribeByPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.mdgit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/RawCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/RawCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Aggregate/RedisCluster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Aggregate/RedisCluster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisProfile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisProfile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/RedisStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/RedisStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisUnstable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisUnstable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisVersion200.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisVersion200.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisVersion220.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisVersion220.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisVersion240.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisVersion240.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisVersion260.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisVersion260.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisVersion280.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisVersion280.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Profile/RedisVersion300.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Profile/RedisVersion300.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/Aggregate/ReplicationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/Aggregate/ReplicationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Configuration/ReplicationOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Configuration/ReplicationOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Replication/ReplicationStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Replication/ReplicationStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/RequestSerializer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/RequestSerializer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/RequestSerializerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/RequestSerializerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/ResponseHandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/ResponseHandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/ResponseInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/ResponseInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/ResponseReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/ResponseReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/ResponseReaderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/ResponseReaderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ScriptCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ScriptCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerBackgroundRewriteAOF.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerBackgroundRewriteAOF.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerBackgroundSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerBackgroundSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerConfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerConfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerDatabaseSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerDatabaseSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerEval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerEval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerEvalSHA.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerEvalSHA.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/ServerException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/ServerException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerFlushAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerFlushAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerFlushDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerFlushDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerInfoV26x.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerInfoV26x.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerLastSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerLastSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerMonitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerMonitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerScript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerScript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerSentinel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerSentinel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerShutdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerShutdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerSlaveOf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerSlaveOf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerSlowlog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerSlowlog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ServerTime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ServerTime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetCardinality.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetCardinality.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetDifference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetDifference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetDifferenceStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetDifferenceStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetIntersection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetIntersection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetIntersectionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetIntersectionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetIsMember.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetIsMember.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Collection/Iterator/SetKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Collection/Iterator/SetKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetMembers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetMembers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetMove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetMove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetPop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetPop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetRandomMember.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetRandomMember.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetUnion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetUnion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/SetUnionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/SetUnionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Collection/Iterator/SortedSetKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Collection/Iterator/SortedSetKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Response/Status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Response/Status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/StatusResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/StatusResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Storage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Cluster/StrategyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Cluster/StrategyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/StreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/StreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Protocol/Text/Handler/StreamableMultiBulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Protocol/Text/Handler/StreamableMultiBulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringAppend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringAppend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringBitCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringBitCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringBitOp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringBitOp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringBitPos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringBitPos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringDecrement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringDecrement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringDecrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringDecrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringGetBit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringGetBit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringGetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringGetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringGetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringGetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringGetSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringGetSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringIncrement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringIncrement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringIncrementByFloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringIncrementByFloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringPreciseSetExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringPreciseSetExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSetBit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSetBit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSetExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSetExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSetMultiplePreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSetMultiplePreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSetPreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSetPreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringStrlen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringStrlen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/StringSubstr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/StringSubstr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/TransactionDiscard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/TransactionDiscard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/TransactionExec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/TransactionExec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/TransactionMulti.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/TransactionMulti.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/TransactionUnwatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/TransactionUnwatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/TransactionWatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/TransactionWatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Connection/WebdisConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Connection/WebdisConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetCardinality.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetCardinality.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetIntersectionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetIntersectionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetLexCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetLexCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRemoveRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRemoveRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRemoveRangeByRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRemoveRangeByRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetRemoveRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetRemoveRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetReverseRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetReverseRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetReverseRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetReverseRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetReverseRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetReverseRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetReverseRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetReverseRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/Command/ZSetUnionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predis/src/Command/ZSetUnionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/www.iml" />
+    </list>
+    <ignored path="www.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="www" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.030303031" vertical-offset="0" max-vertical-offset="561">
+              <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Figure.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Figure.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1139">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Desk.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desk.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1836">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1309">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2958">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Storage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Storage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1105">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Redis.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Redis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1360">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileStorage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileStorage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1462">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index2.php" />
+        <option value="$PROJECT_DIR$/Registry.php" />
+        <option value="$PROJECT_DIR$/Player.php" />
+        <option value="$PROJECT_DIR$/predis/src/Autoloader.php" />
+        <option value="$PROJECT_DIR$/predis/Autoloader.php" />
+        <option value="$PROJECT_DIR$/Game.php" />
+        <option value="$PROJECT_DIR$/Desk.php" />
+        <option value="$PROJECT_DIR$/gameController.php" />
+        <option value="$PROJECT_DIR$/Storage.php" />
+        <option value="$PROJECT_DIR$/FileStorage.php" />
+        <option value="$PROJECT_DIR$/Redis.php" />
+        <option value="$PROJECT_DIR$/Figure.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1688" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\home\testme\www" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6288739-4c94-449c-b3e7-c50b8062a8b3" name="Default" comment="" />
+      <created>1456171903604</created>
+      <option name="number" value="Default" />
+      <updated>1456171903604</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1688" height="1030" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21367522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1139">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1836">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1309">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2958">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1105">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1360">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileStorage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1462">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="391">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1156">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1326">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="833">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58023256" vertical-offset="11656" max-vertical-offset="19142">
+          <caret line="715" column="26" selection-start-line="715" selection-start-column="26" selection-end-line="715" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2563805" vertical-offset="0" max-vertical-offset="862">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predis/src/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predis/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6508121" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1139">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1836">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1309">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2958">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1105">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1360">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileStorage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1462">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030303031" vertical-offset="0" max-vertical-offset="561">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

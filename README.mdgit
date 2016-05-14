@@ -1,0 +1,2 @@
+"# test_chess"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/ThunderCat-aka-Snark/test_chess.gitgit push -u origin master
+"# test_chess"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/ThunderCat-aka-Snark/test_chess.gitgit push -u origin master
